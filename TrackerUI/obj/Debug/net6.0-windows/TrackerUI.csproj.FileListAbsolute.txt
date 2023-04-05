@@ -16,3 +16,4 @@ C:\Users\mitch\OneDrive\Desktop\Visual Studio Projects\TrackerLibrary\TrackerUI\
 C:\Users\mitch\OneDrive\Desktop\Visual Studio Projects\TrackerLibrary\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.pdb
 C:\Users\mitch\OneDrive\Desktop\Visual Studio Projects\TrackerLibrary\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.genruntimeconfig.cache
 C:\Users\mitch\OneDrive\Desktop\Visual Studio Projects\TrackerLibrary\TrackerUI\obj\Debug\net6.0-windows\ref\TrackerUI.dll
+C:\Users\mitch\OneDrive\Desktop\Visual Studio Projects\TrackerLibrary\TrackerUI\obj\Debug\net6.0-windows\TrackerUI.CreateTournamentForm.resources
