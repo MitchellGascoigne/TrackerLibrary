@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mitch\\OneDrive\\Desktop\\Visual Studio Projects\\TrackerLibrary\\TrackerLibrary\\TrackerLibrary.csproj": {}
+    "C:\\Users\\mitch\\OneDrive\\Documents\\Visual Studio Projects\\TrackerLibrary\\TrackerLibrary\\TrackerLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mitch\\OneDrive\\Desktop\\Visual Studio Projects\\TrackerLibrary\\TrackerLibrary\\TrackerLibrary.csproj": {
+    "C:\\Users\\mitch\\OneDrive\\Documents\\Visual Studio Projects\\TrackerLibrary\\TrackerLibrary\\TrackerLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mitch\\OneDrive\\Desktop\\Visual Studio Projects\\TrackerLibrary\\TrackerLibrary\\TrackerLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\mitch\\OneDrive\\Documents\\Visual Studio Projects\\TrackerLibrary\\TrackerLibrary\\TrackerLibrary.csproj",
         "projectName": "TrackerLibrary",
-        "projectPath": "C:\\Users\\mitch\\OneDrive\\Desktop\\Visual Studio Projects\\TrackerLibrary\\TrackerLibrary\\TrackerLibrary.csproj",
+        "projectPath": "C:\\Users\\mitch\\OneDrive\\Documents\\Visual Studio Projects\\TrackerLibrary\\TrackerLibrary\\TrackerLibrary.csproj",
         "packagesPath": "C:\\Users\\mitch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mitch\\OneDrive\\Desktop\\Visual Studio Projects\\TrackerLibrary\\TrackerLibrary\\obj\\",
+        "outputPath": "C:\\Users\\mitch\\OneDrive\\Documents\\Visual Studio Projects\\TrackerLibrary\\TrackerLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mitch\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
