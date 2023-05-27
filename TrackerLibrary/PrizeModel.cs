@@ -13,5 +13,15 @@ namespace TrackerLibrary
         public string PlaceName { get; set; }
         public decimal PrizeAmount { get; set; }
         public double PrizePercentage { get; set; }
+
+        public PrizeModel()
+        {
+            
+        }
+
+        public PrizeModel(string placeName, string PlaceNumber, string prizeAmount, string prizePercentage )
+        {
+            PlaceName = placeName;
+        }
     }
 }
