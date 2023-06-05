@@ -21,12 +21,12 @@ namespace TrackerUI
 
         private void createPrizeButton_Click(object sender, EventArgs e)
         {
-           if (ValidateForm())
+            if (ValidateForm())
             {
                 PrizeModel model = new PrizeModel(
-                    placeNameValue.Text, 
-                    placeNumberValue.Text, 
-                    prizeAmountValue.Text, 
+                    placeNameValue.Text,
+                    placeNumberValue.Text,
+                    prizeAmountValue.Text,
                     prizePercentageValue.Text);
 
                 foreach (IDataConnection db in GlobalConfig.Connections)
@@ -46,7 +46,7 @@ namespace TrackerUI
             int placeNumber = 0;
             bool placeNumberValidNumber = int.TryParse(placeNumberValue.Text, out placeNumber);
 
-            if(placeNumberValidNumber == false)
+            if (placeNumberValidNumber == false)
             {
                 output = false;
             }
@@ -55,7 +55,7 @@ namespace TrackerUI
                 output |= false;
             }
 
-            if (placeNameValue.Text.Length ==0)
+            if (placeNameValue.Text.Length == 0)
             {
                 output |= false;
             }
@@ -64,7 +64,7 @@ namespace TrackerUI
             double prizePercentage = 0;
 
             bool prizeAmountValid = decimal.TryParse(prizeAmountValue.Text, out prizeAmount);
-            bool prizePercentageValid = double.TryParse(prizeAmountValue.Text,out prizePercentage);
+            bool prizePercentageValid = double.TryParse(prizeAmountValue.Text, out prizePercentage);
 
             if (prizeAmountValid == false || prizePercentageValid)
             {
@@ -81,6 +81,11 @@ namespace TrackerUI
                 output = false;
             }
             return output;
+        }
+
+        private void prizeAmountValue_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
